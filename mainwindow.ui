@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>247</width>
+    <height>101</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>qtFx</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QFormLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="label">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Region</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QComboBox" name="regionBox">
+        <item>
+         <property name="text">
+          <string>All</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Numpad</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Keyboard Right</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Keyboard Center</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Keyboard Left</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Light Pipes</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Logo</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Trackpad</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Status</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lid</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="font">
+         <font>
+          <pointsize>12</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Color</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="colorBox">
+        <item>
+         <property name="text">
+          <string>Off</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Royal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cornflower</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Turquoise</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Aqua</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Chive</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Grass</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Emerald</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Green</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lime</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lemon</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Marigold</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Burnt Orange</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Pumpkin</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cherry</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Hot Pink</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Barbie Pink</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fuchsia</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Grape</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Indigo</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="applyButton">
+        <property name="text">
+         <string>Apply</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

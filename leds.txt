@@ -1,0 +1,18 @@
+00 02 00 = everything but power and status
+
+
+New Alienfx Device
+Model description: Alienware17
+Leds still on: power
+Led 0x1: LeftKeyboard
+Led 0x2: CenterKeyboard
+Led 0x4: RightKeyboard
+Led 0x8: Numberpad
+Led 0x20: LeftPipe
+Led 0x40: RightPipe
+Led 0x80: Lid
+Led 0x100: Logo
+Led 0x200: Trackpad
+Led 0x800: Wireless
+Led 0x1000: Capslock
+Led 0x4000: Harddrive
